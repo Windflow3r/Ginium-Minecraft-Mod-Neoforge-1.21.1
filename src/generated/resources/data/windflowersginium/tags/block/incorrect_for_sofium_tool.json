@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#windflowersginium:needs_sofium_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_netherite_tool"
+  ]
+}

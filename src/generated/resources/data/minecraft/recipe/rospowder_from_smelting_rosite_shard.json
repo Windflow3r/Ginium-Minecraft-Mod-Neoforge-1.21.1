@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 500,
+  "experience": 1.0,
+  "group": "rospowder",
+  "ingredient": {
+    "item": "windflowersginium:rosite_shard"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:rospowder"
+  }
+}

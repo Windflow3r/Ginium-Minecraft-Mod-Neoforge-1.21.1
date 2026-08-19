@@ -1,0 +1,11 @@
+{
+  "values": [
+    "windflowersginium:nimbite",
+    "windflowersginium:rainberg_block",
+    "windflowersginium:rainberg_deepslate_ore",
+    "windflowersginium:rosite_nether_ore",
+    "windflowersginium:nylite_end_ore",
+    "windflowersginium:imbrium_block",
+    "#minecraft:needs_diamond_tool"
+  ]
+}

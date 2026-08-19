@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "windflowersginium:ginium_ingot"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "G G",
+    "G G"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:ginium_leggings"
+  }
+}

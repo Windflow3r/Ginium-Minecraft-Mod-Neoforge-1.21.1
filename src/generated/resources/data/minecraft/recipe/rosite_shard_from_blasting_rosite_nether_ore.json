@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "rosite_shard",
+  "ingredient": {
+    "item": "windflowersginium:rosite_nether_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:rosite_shard"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 1.0,
+  "group": "nylipowder",
+  "ingredient": {
+    "item": "windflowersginium:nylite_shard"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:nylipowder"
+  }
+}

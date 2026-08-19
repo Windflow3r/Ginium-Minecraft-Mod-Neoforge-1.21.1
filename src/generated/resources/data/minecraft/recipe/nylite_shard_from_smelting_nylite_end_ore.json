@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "nylite_shard",
+  "ingredient": {
+    "item": "windflowersginium:nylite_end_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:nylite_shard"
+  }
+}

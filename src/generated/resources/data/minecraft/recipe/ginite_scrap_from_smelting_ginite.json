@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 250,
+  "experience": 0.75,
+  "group": "ginite_scrap",
+  "ingredient": {
+    "item": "windflowersginium:ginite"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:ginite_scrap"
+  }
+}

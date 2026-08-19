@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_imbrium_upgrade_template_from_arrow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "windflowersginium:imbrium_upgrade_arrow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:has_imbrium_upgrade_template_from_arrow"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_imbrium_upgrade_template_from_arrow"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:has_imbrium_upgrade_template_from_arrow"
+    ]
+  }
+}

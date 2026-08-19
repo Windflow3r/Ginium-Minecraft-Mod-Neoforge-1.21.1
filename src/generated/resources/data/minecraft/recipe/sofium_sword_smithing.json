@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "windflowersginium:sofium_ingot"
+  },
+  "base": {
+    "item": "windflowersginium:imbrium_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:sofium_sword"
+  },
+  "template": {
+    "item": "windflowersginium:sofium_upgrade_smithing_template"
+  }
+}

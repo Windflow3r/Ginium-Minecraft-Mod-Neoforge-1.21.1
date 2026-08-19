@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "windflowersginium:ginite_scrap"
+    },
+    "N": {
+      "item": "windflowersginium:nimbite_scrap"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GGN",
+    "NNN"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:imbrium_ingot"
+  }
+}

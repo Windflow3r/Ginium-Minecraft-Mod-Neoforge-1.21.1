@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "windflowersginium:rainberg_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "windflowersginium:rainberg_ingot"
+  }
+}

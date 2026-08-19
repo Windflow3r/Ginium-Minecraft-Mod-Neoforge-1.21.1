@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_rainberg": {
+      "conditions": {
+        "items": [
+          {
+            "items": "windflowersginium:raw_rainberg"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:rainberg_ingot_from_smelting_raw_rainberg"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_rainberg"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:rainberg_ingot_from_smelting_raw_rainberg"
+    ]
+  }
+}

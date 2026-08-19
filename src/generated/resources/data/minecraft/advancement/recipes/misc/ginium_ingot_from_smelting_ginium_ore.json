@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ginium_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "windflowersginium:ginium_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ginium_ingot_from_smelting_ginium_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ginium_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ginium_ingot_from_smelting_ginium_ore"
+    ]
+  }
+}

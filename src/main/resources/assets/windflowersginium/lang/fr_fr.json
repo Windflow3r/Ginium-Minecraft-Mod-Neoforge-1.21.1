@@ -1,0 +1,82 @@
+{
+  "item.windflowersginium.raw_ginium": "Ginium brut",
+  "item.windflowersginium.ginium_ingot": "Lingot de Ginium",
+  "item.windflowersginium.ginium_nugget": "Pépite de Ginium",
+  "item.windflowersginium.ginpowder": "Poudre de Gin",
+  "item.windflowersginium.gin_apple": "Pomme de Gin",
+
+  "item.windflowersginium.ginium_axe": "Hache en Ginium",
+  "item.windflowersginium.ginium_hoe": "Houe en Ginium",
+  "item.windflowersginium.ginium_pickaxe": "Pioche en Ginium",
+  "item.windflowersginium.ginium_shovel": "Pelle en Ginium",
+  "item.windflowersginium.ginium_sword": "Épée en Ginium",
+
+  "item.windflowersginium.ginium_helmet": "Casque en Ginium",
+  "item.windflowersginium.ginium_chestplate": "Plastron en Ginium",
+  "item.windflowersginium.ginium_leggings": "Jambières en Ginium",
+  "item.windflowersginium.ginium_boots": "Bottes en Ginium",
+
+  "item.windflowersginium.raw_rainberg": "Rainberg brut",
+  "item.windflowersginium.rainberg_ingot": "Lingot de Rainberg",
+  "item.windflowersginium.rainberg_nugget": "Pépite de Rainberg",
+  "item.windflowersginium.rainpowder": "Poudre de Rain",
+  "item.windflowersginium.rain_apple": "Pomme de Rain",
+
+  "item.windflowersginium.ginite_scrap": "Débris de Ginite",
+  "item.windflowersginium.nimbite_scrap": "Débris de Nimbite",
+
+  "item.windflowersginium.imbrium_upgrade_arrow": "Flèche d'amélioration d'Imbrium",
+  "item.windflowersginium.imbrium_upgrade_smithing_template": "Modèle de forge d'amélioration d'Imbrium",
+
+  "item.windflowersginium.imbrium_ingot": "Lingot d'Imbrium",
+
+  "item.windflowersginium.imbrium_axe": "Hache en Imbrium",
+  "item.windflowersginium.imbrium_hoe": "Houe en Imbrium",
+  "item.windflowersginium.imbrium_pickaxe": "Pioche en Imbrium",
+  "item.windflowersginium.imbrium_shovel": "Pelle en Imbrium",
+  "item.windflowersginium.imbrium_sword": "Épée en Imbrium",
+
+  "item.windflowersginium.imbrium_helmet": "Casque en Imbrium",
+  "item.windflowersginium.imbrium_chestplate": "Plastron en Imbrium",
+  "item.windflowersginium.imbrium_leggings": "Jambières en Imbrium",
+  "item.windflowersginium.imbrium_boots": "Bottes en Imbrium",
+
+  "item.windflowersginium.rosite_shard": "Éclat de Rosite",
+  "item.windflowersginium.rospowder": "Poudre de Rosi",
+  "item.windflowersginium.rose_apple": "Pomme de Rosi",
+
+  "item.windflowersginium.nylite_shard": "Éclat de Nylite",
+  "item.windflowersginium.nylipowder": "Poudre de Nyli",
+  "item.windflowersginium.nyli_apple": "Pomme de Nyli",
+
+  "item.windflowersginium.sofium_upgrade_smithing_template": "Modèle de forge d'amélioration de Sofium",
+  "item.windflowersginium.sofium_ingot": "Cœur de Sofium",
+  "item.windflowersginium.sofia_apple": "Pomme de Sofia",
+
+  "item.windflowersginium.sofium_axe": "Hache en Sofium",
+  "item.windflowersginium.sofium_hoe": "Houe en Sofium",
+  "item.windflowersginium.sofium_pickaxe": "Pioche en Sofium",
+  "item.windflowersginium.sofium_shovel": "Pelle en Sofium",
+  "item.windflowersginium.sofium_sword": "Épée en Sofium",
+
+  "item.windflowersginium.sofium_helmet": "Casque en Sofium",
+  "item.windflowersginium.sofium_chestplate": "Plastron en Sofium",
+  "item.windflowersginium.sofium_leggings": "Jambières en Sofium",
+  "item.windflowersginium.sofium_boots": "Bottes en Sofium",
+
+  "block.windflowersginium.ginite": "Ginite",
+  "block.windflowersginium.ginium_block": "Bloc de Ginium",
+  "block.windflowersginium.ginium_ore": "Minerai de Ginium",
+  "block.windflowersginium.ginium_deepslate_ore": "Minerai de Ginium des abîmes",
+
+  "block.windflowersginium.imbrium_block": "Bloc d'Imbrium",
+
+  "block.windflowersginium.nimbite": "Nimbite",
+  "block.windflowersginium.rainberg_block": "Bloc de Rainberg",
+  "block.windflowersginium.rainberg_deepslate_ore": "Minerai de Rainberg des abîmes",
+
+  "block.windflowersginium.rosite_nether_ore": "Minerai de Rosite du Nether",
+  "block.windflowersginium.nylite_end_ore": "Minerai de Nylite de l'End",
+
+  "block.windflowersginium.sofium_block": "Bloc de Sofium"
+}

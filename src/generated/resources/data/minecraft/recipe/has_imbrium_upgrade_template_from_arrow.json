@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "windflowersginium:imbrium_upgrade_arrow"
+    },
+    "I": {
+      "item": "windflowersginium:ginite"
+    },
+    "R": {
+      "item": "windflowersginium:rainberg_ingot"
+    }
+  },
+  "pattern": [
+    "IRI",
+    "IAI",
+    "IRI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:imbrium_upgrade_smithing_template"
+  }
+}

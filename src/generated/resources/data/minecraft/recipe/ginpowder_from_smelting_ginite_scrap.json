@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 250,
+  "experience": 1.0,
+  "group": "ginpowder",
+  "ingredient": {
+    "item": "windflowersginium:ginite_scrap"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:ginpowder"
+  }
+}

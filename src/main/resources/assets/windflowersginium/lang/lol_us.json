@@ -1,0 +1,82 @@
+{
+  "item.windflowersginium.raw_ginium": "Raw Geniemz",
+  "item.windflowersginium.ginium_ingot": "Geniem Ingotz",
+  "item.windflowersginium.ginium_nugget": "Geniem Nuggetz",
+  "item.windflowersginium.ginpowder": "Geniem Powderz",
+  "item.windflowersginium.gin_apple": "Geniem Applez",
+
+  "item.windflowersginium.ginium_axe": "Geniem Axez",
+  "item.windflowersginium.ginium_hoe": "Geniem Hoes",
+  "item.windflowersginium.ginium_pickaxe": "Geniem Pickaxe",
+  "item.windflowersginium.ginium_shovel": "Geniem Shovelz",
+  "item.windflowersginium.ginium_sword": "Geniem Swordz",
+
+  "item.windflowersginium.ginium_helmet": "Geniem Head Hat",
+  "item.windflowersginium.ginium_chestplate": "Geniem Chest Armor",
+  "item.windflowersginium.ginium_leggings": "Geniem Leg Armorz",
+  "item.windflowersginium.ginium_boots": "Geniem Footsiez",
+
+  "item.windflowersginium.raw_rainberg": "Raw Waterstonez",
+  "item.windflowersginium.rainberg_ingot": "Waterstone Ingotz",
+  "item.windflowersginium.rainberg_nugget": "Waterstone Nuggetz",
+  "item.windflowersginium.rainpowder": "Waterpowderz",
+  "item.windflowersginium.rain_apple": "Water Applez",
+
+  "item.windflowersginium.ginite_scrap": "Geniete Scrapz",
+  "item.windflowersginium.nimbite_scrap": "Nintite Scrapz",
+
+  "item.windflowersginium.imbrium_upgrade_arrow": "Imbroom Upgrade Arrowz",
+  "item.windflowersginium.imbrium_upgrade_smithing_template": "Imbroom Upgrade Templatez",
+
+  "item.windflowersginium.imbrium_ingot": "Imbroom Ingotz",
+
+  "item.windflowersginium.imbrium_axe": "Imbroom Axez",
+  "item.windflowersginium.imbrium_hoe": "Imbroom Hoes",
+  "item.windflowersginium.imbrium_pickaxe": "Imbroom Pickaxe",
+  "item.windflowersginium.imbrium_shovel": "Imbroom Shovelz",
+  "item.windflowersginium.imbrium_sword": "Imbroom Swordz",
+
+  "item.windflowersginium.imbrium_helmet": "Imbroom Head Hat",
+  "item.windflowersginium.imbrium_chestplate": "Imbroom Chest Armor",
+  "item.windflowersginium.imbrium_leggings": "Imbroom Leg Armorz",
+  "item.windflowersginium.imbrium_boots": "Imbroom Footsiez",
+
+  "item.windflowersginium.rosite_shard": "Rawsit Shardz",
+  "item.windflowersginium.rospowder": "Rawsipowderz",
+  "item.windflowersginium.rose_apple": "Rawsit Applez",
+
+  "item.windflowersginium.nylite_shard": "Nyawlite Shardz",
+  "item.windflowersginium.nylipowder": "Nyawlipowderz",
+  "item.windflowersginium.nyli_apple": "Nyawli Applez",
+
+  "item.windflowersginium.sofium_upgrade_smithing_template": "Sofa Upgrade Templatez",
+  "item.windflowersginium.sofium_ingot": "Sofa Heartz",
+  "item.windflowersginium.sofia_apple": "Sofa's Applez",
+
+  "item.windflowersginium.sofium_axe": "Sofa Axez",
+  "item.windflowersginium.sofium_hoe": "Sofa Hoes",
+  "item.windflowersginium.sofium_pickaxe": "Sofa Pickaxe",
+  "item.windflowersginium.sofium_shovel": "Sofa Shovelz",
+  "item.windflowersginium.sofium_sword": "Sofa Swordz",
+
+  "item.windflowersginium.sofium_helmet": "Sofa Head Hat",
+  "item.windflowersginium.sofium_chestplate": "Sofa Chest Armor",
+  "item.windflowersginium.sofium_leggings": "Sofa Leg Armorz",
+  "item.windflowersginium.sofium_boots": "Sofa Footsiez",
+
+  "block.windflowersginium.ginite": "Geniete",
+  "block.windflowersginium.ginium_block": "Big Geniem Blockz",
+  "block.windflowersginium.ginium_ore": "Geniem Orez",
+  "block.windflowersginium.ginium_deepslate_ore": "Deep Geniem Orez",
+
+  "block.windflowersginium.imbrium_block": "Big Imbroom Blockz",
+
+  "block.windflowersginium.nimbite": "Nintite",
+  "block.windflowersginium.rainberg_block": "Big Waterstone Blockz",
+  "block.windflowersginium.rainberg_deepslate_ore": "Deep Waterstone Orez",
+
+  "block.windflowersginium.rosite_nether_ore": "Nether Rawsit Orez",
+  "block.windflowersginium.nylite_end_ore": "End Nyawlite Orez",
+
+  "block.windflowersginium.sofium_block": "BIG SOFA BLOCKZ"
+}

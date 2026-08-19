@@ -1,0 +1,92 @@
+{
+  "item.windflowersginium.raw_ginium": "ジニウムの原石",
+  "item.windflowersginium.ginium_ingot": "ジニウムインゴット",
+  "item.windflowersginium.ginium_nugget": "ジニウム塊",
+  "item.windflowersginium.ginpowder": "ジンパウダー",
+  "item.windflowersginium.gin_apple": "ジンのりんご",
+
+
+
+  "item.windflowersginium.ginium_axe": "ジニウムの斧",
+  "item.windflowersginium.ginium_hoe": "ジニウムのクワ",
+  "item.windflowersginium.ginium_pickaxe": "ジニウムのつるはし",
+  "item.windflowersginium.ginium_shovel": "ジニウムのシャベル",
+  "item.windflowersginium.ginium_sword": "ジニウムの剣",
+
+  "item.windflowersginium.ginium_helmet": "ジニウムのヘルメット",
+  "item.windflowersginium.ginium_chestplate": "ジニウムのチェストプレート",
+  "item.windflowersginium.ginium_leggings": "ジニウムのレギンス",
+  "item.windflowersginium.ginium_boots": "ジニウムのブーツ",
+
+
+
+  "item.windflowersginium.raw_rainberg": "ラインバルグの原石",
+  "item.windflowersginium.rainberg_ingot": "ラインバルグインゴット",
+  "item.windflowersginium.rainberg_nugget": "ラインバルグ塊",
+  "item.windflowersginium.rainpowder": "ラインパウダー",
+  "item.windflowersginium.rain_apple": "ラインのりんご",
+
+
+
+  "item.windflowersginium.ginite_scrap": "ジナツの欠片",
+  "item.windflowersginium.nimbite_scrap": "ニムバツの欠片",
+
+  "item.windflowersginium.imbrium_upgrade_arrow": "インブリウムの強化",
+  "item.windflowersginium.imbrium_upgrade_smithing_template": "インブリウム強化",
+
+
+
+  "item.windflowersginium.imbrium_ingot": "インブリウムインゴット",
+
+  "item.windflowersginium.imbrium_axe": "インブリウムの斧",
+  "item.windflowersginium.imbrium_hoe": "インブリウムのクワ",
+  "item.windflowersginium.imbrium_pickaxe": "インブリウムのつるはし",
+  "item.windflowersginium.imbrium_shovel": "インブリウムのシャベル",
+  "item.windflowersginium.imbrium_sword": "インブリウムの剣",
+
+  "item.windflowersginium.imbrium_helmet": "インブリウムのヘルメット",
+  "item.windflowersginium.imbrium_chestplate": "インブリウムのチェストプレート",
+  "item.windflowersginium.imbrium_leggings": "インブリウムのレギンス",
+  "item.windflowersginium.imbrium_boots": "インブリウムのブーツ",
+
+  "item.windflowersginium.rosite_shard": "ロジッツの欠片",
+  "item.windflowersginium.rospowder": "ロジパウダー",
+  "item.windflowersginium.rose_apple": "ロジのりんご",
+
+
+  "item.windflowersginium.nylite_shard": "ニリッツの欠片",
+  "item.windflowersginium.nylipowder": "ニリパウダー",
+  "item.windflowersginium.nyli_apple": "ニリのりんご",
+
+
+  "item.windflowersginium.sofium_upgrade_smithing_template": "ソビウム強化",
+  "item.windflowersginium.sofium_ingot": "ソビウムのハート",
+  "item.windflowersginium.sofia_apple": "ソビアのりんご",
+
+  "item.windflowersginium.sofium_axe": "ソビウムの斧",
+  "item.windflowersginium.sofium_hoe": "ソビウムのクワ",
+  "item.windflowersginium.sofium_pickaxe": "ソビウムのつるはし",
+  "item.windflowersginium.sofium_shovel": "ソビウムのシャベル",
+  "item.windflowersginium.sofium_sword": "ソビウムの剣",
+
+  "item.windflowersginium.sofium_helmet": "ソビウムのヘルメット",
+  "item.windflowersginium.sofium_chestplate": "ソビウムのチェストプレート",
+  "item.windflowersginium.sofium_leggings": "ソビウムのレギンス",
+  "item.windflowersginium.sofium_boots": "ソビウムのブーツ",
+
+  "block.windflowersginium.ginite": "ジナツ",
+  "block.windflowersginium.ginium_block": "ジニウムブロック",
+  "block.windflowersginium.ginium_ore": "ジニウム鉱石",
+  "block.windflowersginium.ginium_deepslate_ore": "深層岩ジニウム鉱石",
+
+  "block.windflowersginium.imbrium_block": "インブリウムブロック",
+
+  "block.windflowersginium.nimbite": "ニムバツ",
+  "block.windflowersginium.rainberg_block": "ラインバルグブロック",
+  "block.windflowersginium.rainberg_deepslate_ore": "深層岩ラインバルグ鉱石",
+
+  "block.windflowersginium.rosite_nether_ore": "ネザーロジッツ鉱石",
+  "block.windflowersginium.nylite_end_ore": "エンドニリッツ鉱石",
+
+  "block.windflowersginium.sofium_block": "ソビウムブロック"
+}

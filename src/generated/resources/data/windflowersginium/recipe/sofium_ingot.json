@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "windflowersginium:ginpowder"
+    },
+    "I": {
+      "item": "windflowersginium:rainpowder"
+    },
+    "N": {
+      "item": "windflowersginium:nylipowder"
+    },
+    "R": {
+      "item": "windflowersginium:rospowder"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "GGI",
+    "NWI",
+    "NRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:sofium_ingot"
+  }
+}

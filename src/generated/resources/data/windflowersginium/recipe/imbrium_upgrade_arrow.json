@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "windflowersginium:rainberg_nugget"
+    },
+    "R": {
+      "item": "windflowersginium:rainberg_ingot"
+    }
+  },
+  "pattern": [
+    " N ",
+    "NRN",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:imbrium_upgrade_arrow"
+  }
+}

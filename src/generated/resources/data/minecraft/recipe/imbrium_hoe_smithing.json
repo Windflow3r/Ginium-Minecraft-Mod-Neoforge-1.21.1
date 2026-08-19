@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "windflowersginium:imbrium_ingot"
+  },
+  "base": {
+    "item": "windflowersginium:ginium_hoe"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:imbrium_hoe"
+  },
+  "template": {
+    "item": "windflowersginium:imbrium_upgrade_smithing_template"
+  }
+}

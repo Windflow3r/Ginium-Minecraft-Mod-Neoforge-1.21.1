@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#windflowersginium:needs_ginium_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ]
+}

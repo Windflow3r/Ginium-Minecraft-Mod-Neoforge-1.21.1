@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "ginium_ingot",
+  "ingredient": {
+    "item": "windflowersginium:raw_ginium"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:ginium_ingot"
+  }
+}

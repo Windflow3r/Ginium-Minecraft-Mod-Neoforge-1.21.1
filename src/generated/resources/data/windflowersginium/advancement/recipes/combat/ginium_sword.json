@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ginium_tools": {
+      "conditions": {
+        "items": [
+          {
+            "items": "windflowersginium:ginium_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "windflowersginium:ginium_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ginium_tools"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "windflowersginium:ginium_sword"
+    ]
+  }
+}

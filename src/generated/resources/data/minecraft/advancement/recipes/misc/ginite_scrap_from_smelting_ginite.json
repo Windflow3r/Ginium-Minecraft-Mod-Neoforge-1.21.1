@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ginite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "windflowersginium:ginite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ginite_scrap_from_smelting_ginite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ginite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ginite_scrap_from_smelting_ginite"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "windflowersginium:item/sofia_apple"
+  }
+}

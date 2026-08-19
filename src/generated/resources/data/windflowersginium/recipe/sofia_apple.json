@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "G": {
+      "item": "windflowersginium:ginpowder"
+    },
+    "I": {
+      "item": "windflowersginium:rainpowder"
+    },
+    "N": {
+      "item": "windflowersginium:nylipowder"
+    },
+    "R": {
+      "item": "windflowersginium:rospowder"
+    }
+  },
+  "pattern": [
+    "GGI",
+    "NAI",
+    "NRR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:sofia_apple"
+  }
+}

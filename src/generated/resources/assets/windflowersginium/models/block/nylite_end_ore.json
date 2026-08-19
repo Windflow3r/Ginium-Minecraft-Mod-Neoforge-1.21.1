@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "windflowersginium:block/nylite_end_ore"
+  }
+}

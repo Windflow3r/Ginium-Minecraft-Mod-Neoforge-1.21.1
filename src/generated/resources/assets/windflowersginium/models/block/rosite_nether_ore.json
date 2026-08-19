@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "windflowersginium:block/rosite_nether_ore"
+  }
+}

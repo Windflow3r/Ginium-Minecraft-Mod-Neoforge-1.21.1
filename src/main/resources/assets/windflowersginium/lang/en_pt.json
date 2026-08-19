@@ -1,0 +1,82 @@
+{
+  "item.windflowersginium.raw_ginium": "Rough Ginium",
+  "item.windflowersginium.ginium_ingot": "Bulloin o' Ginium",
+  "item.windflowersginium.ginium_nugget": "Doubloon o' Ginium",
+  "item.windflowersginium.ginpowder": "Ginpowder",
+  "item.windflowersginium.gin_apple": "Gin Apple",
+
+  "item.windflowersginium.ginium_axe": "Hatchet o' Ginium",
+  "item.windflowersginium.ginium_hoe": "Farmin' Stick o' Ginium",
+  "item.windflowersginium.ginium_pickaxe": "Pickaxe o' Ginium",
+  "item.windflowersginium.ginium_shovel": "Spade o' Ginium",
+  "item.windflowersginium.ginium_sword": "Cutlass o' Ginium",
+
+  "item.windflowersginium.ginium_helmet": "Helmet o' Ginium",
+  "item.windflowersginium.ginium_chestplate": "Chestplate o' Ginium",
+  "item.windflowersginium.ginium_leggings": "Greaves o' Ginium",
+  "item.windflowersginium.ginium_boots": "Peg-Legs o' Ginium",
+
+  "item.windflowersginium.raw_rainberg": "Rough Rainberg",
+  "item.windflowersginium.rainberg_ingot": "Bulloin o' Rainberg",
+  "item.windflowersginium.rainberg_nugget": "Doubloon o' Rainberg",
+  "item.windflowersginium.rainpowder": "Rainpowder",
+  "item.windflowersginium.rain_apple": "Rain Apple",
+
+  "item.windflowersginium.ginite_scrap": "Ginite Scrap",
+  "item.windflowersginium.nimbite_scrap": "Nimbite Scrap",
+
+  "item.windflowersginium.imbrium_upgrade_arrow": "Imbrium Upgrade Arrow",
+  "item.windflowersginium.imbrium_upgrade_smithing_template": "Imbrium Upgrade Smithin' Template",
+
+  "item.windflowersginium.imbrium_ingot": "Bulloin o' Imbrium",
+
+  "item.windflowersginium.imbrium_axe": "Hatchet o' Imbrium",
+  "item.windflowersginium.imbrium_hoe": "Farmin' Stick o' Imbrium",
+  "item.windflowersginium.imbrium_pickaxe": "Pickaxe o' Imbrium",
+  "item.windflowersginium.imbrium_shovel": "Spade o' Imbrium",
+  "item.windflowersginium.imbrium_sword": "Cutlass o' Imbrium",
+
+  "item.windflowersginium.imbrium_helmet": "Helmet o' Imbrium",
+  "item.windflowersginium.imbrium_chestplate": "Chestplate o' Imbrium",
+  "item.windflowersginium.imbrium_leggings": "Greaves o' Imbrium",
+  "item.windflowersginium.imbrium_boots": "Peg-Legs o' Imbrium",
+
+  "item.windflowersginium.rosite_shard": "Shard o' Rosite",
+  "item.windflowersginium.rospowder": "Rosipowder",
+  "item.windflowersginium.rose_apple": "Rosi Apple",
+
+  "item.windflowersginium.nylite_shard": "Shard o' Nylite",
+  "item.windflowersginium.nylipowder": "Nylipowder",
+  "item.windflowersginium.nyli_apple": "Nyli Apple",
+
+  "item.windflowersginium.sofium_upgrade_smithing_template": "Sofium Upgrade Smithin' Template",
+  "item.windflowersginium.sofium_ingot": "Sofium Heart",
+  "item.windflowersginium.sofia_apple": "Sofia's Apple",
+
+  "item.windflowersginium.sofium_axe": "Sofia's Battleaxe",
+  "item.windflowersginium.sofium_hoe": "Sofia's scythe",
+  "item.windflowersginium.sofium_pickaxe": "Sofia's pickaxe",
+  "item.windflowersginium.sofium_shovel": "Sofia's spade",
+  "item.windflowersginium.sofium_sword": "Sofia's cutlass",
+
+  "item.windflowersginium.sofium_helmet": "Sofia's helmet",
+  "item.windflowersginium.sofium_chestplate": "Sofia's chestplate",
+  "item.windflowersginium.sofium_leggings": "Sofia's greaves",
+  "item.windflowersginium.sofium_boots": "Sofia's peg-Legs",
+
+  "block.windflowersginium.ginite": "Ginite",
+  "block.windflowersginium.ginium_block": "Block o' Ginium",
+  "block.windflowersginium.ginium_ore": "Ginium Ore",
+  "block.windflowersginium.ginium_deepslate_ore": "Deepslate Ginium Ore",
+
+  "block.windflowersginium.imbrium_block": "Block o' Imbrium",
+
+  "block.windflowersginium.nimbite": "Nimbite",
+  "block.windflowersginium.rainberg_block": "Block o' Rainberg",
+  "block.windflowersginium.rainberg_deepslate_ore": "Deepslate Rainberg Ore",
+
+  "block.windflowersginium.rosite_nether_ore": "Nether Rosite Ore",
+  "block.windflowersginium.nylite_end_ore": "End Nylite Ore",
+
+  "block.windflowersginium.sofium_block": "Block o' Sofium"
+}
