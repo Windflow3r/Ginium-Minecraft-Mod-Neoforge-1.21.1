@@ -141,6 +141,10 @@ public class GiniumRecipeProvider extends RecipeProvider implements IConditionBu
         buttonBuilder(GiniumBlocks.POLISHED_NIMBITE_BUTTON, Ingredient.of(GiniumBlocks.POLISHED_NIMBITE)).group("polished_nimbite").unlockedBy("has_polished_nimbite", has(GiniumBlocks.POLISHED_NIMBITE)).save(recipeOutput);
         pressurePlate(recipeOutput, GiniumBlocks.POLISHED_NIMBITE_PLATE.get(), GiniumBlocks.POLISHED_NIMBITE.get());
 
+        stairBuilder(GiniumBlocks.NIMBITE_BRICKS_STAIRS, Ingredient.of(GiniumBlocks.NIMBITE_BRICKS)).group("nimbite_bricks").unlockedBy("has_nimbite_bricks", has(GiniumBlocks.NIMBITE_BRICKS)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.NIMBITE_BRICKS_SLAB.get(), GiniumBlocks.NIMBITE_BRICKS.get());
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.NIMBITE_BRICKS_WALL.get(), GiniumBlocks.NIMBITE_BRICKS.get());
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, GiniumItems.GINIUM_AXE.get())
                 .pattern("GG ")

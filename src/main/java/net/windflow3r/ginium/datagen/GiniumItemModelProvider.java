@@ -63,6 +63,10 @@ public class GiniumItemModelProvider extends ItemModelProvider {
         stairsItem(GiniumBlocks.POLISHED_NIMBITE_STAIRS, GiniumBlocks.POLISHED_NIMBITE);
         slabItem(GiniumBlocks.POLISHED_NIMBITE_SLAB, GiniumBlocks.POLISHED_NIMBITE);
         pressurePlateItem(GiniumBlocks.POLISHED_NIMBITE_PLATE, GiniumBlocks.POLISHED_NIMBITE);
+        wallItem(GiniumBlocks.NIMBITE_BRICKS_WALL, GiniumBlocks.NIMBITE_BRICKS);
+        stairsItem(GiniumBlocks.NIMBITE_BRICKS_STAIRS, GiniumBlocks.NIMBITE_BRICKS);
+        slabItem(GiniumBlocks.NIMBITE_BRICKS_SLAB, GiniumBlocks.NIMBITE_BRICKS);
+
 
 
         basicItem(GiniumItems.GINITE_SCRAP.get());

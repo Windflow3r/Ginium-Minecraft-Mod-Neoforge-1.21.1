@@ -24,6 +24,11 @@ public class GiniumBlockStateProvider extends BlockStateProvider {
         buttonBlock(GiniumBlocks.POLISHED_NIMBITE_BUTTON.get(), blockTexture(GiniumBlocks.POLISHED_NIMBITE.get()));
         pressurePlateBlock(GiniumBlocks.POLISHED_NIMBITE_PLATE.get(), blockTexture(GiniumBlocks.POLISHED_NIMBITE.get()));
         wallBlock(GiniumBlocks.POLISHED_NIMBITE_WALL.get(), blockTexture(GiniumBlocks.POLISHED_NIMBITE.get()));
+        blockWithItem(GiniumBlocks.NIMBITE_BRICKS);
+        stairsBlock(GiniumBlocks.NIMBITE_BRICKS_STAIRS.get(), blockTexture(GiniumBlocks.NIMBITE_BRICKS.get()));
+        slabBlock(GiniumBlocks.NIMBITE_BRICKS_SLAB.get(), blockTexture(GiniumBlocks.NIMBITE_BRICKS.get()), blockTexture(GiniumBlocks.NIMBITE_BRICKS.get()));
+        wallBlock(GiniumBlocks.NIMBITE_BRICKS_WALL.get(), blockTexture(GiniumBlocks.NIMBITE_BRICKS.get()));
+        blockWithItem(GiniumBlocks.CHISELED_NIMBITE);
 
 
         blockWithItem(GiniumBlocks.GINIUM_BLOCK);

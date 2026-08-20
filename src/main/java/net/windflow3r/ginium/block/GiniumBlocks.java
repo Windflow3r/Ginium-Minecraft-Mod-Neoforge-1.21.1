@@ -83,6 +83,34 @@ public class GiniumBlocks {
                     .sound(SoundType.AMETHYST)
             ));
 
+    public static final DeferredBlock<Block> NIMBITE_BRICKS = registerBlock("nimbite_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<StairBlock> NIMBITE_BRICKS_STAIRS = registerBlock("nimbite_bricks_stairs",
+            () -> new StairBlock(GiniumBlocks.POLISHED_NIMBITE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<SlabBlock> NIMBITE_BRICKS_SLAB = registerBlock("nimbite_bricks_slab",
+            () -> new SlabBlock(
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<WallBlock> NIMBITE_BRICKS_WALL = registerBlock("nimbite_bricks_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<Block> CHISELED_NIMBITE = registerBlock("chiseled_nimbite",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)
+            ));
+
 
 
     public static final DeferredBlock<Block> RAINBERG_BLOCK = registerBlock("rainberg_block",

@@ -24,6 +24,8 @@ public class GiniumBlockTagProvider extends BlockTagsProvider {
                 .add(GiniumBlocks.GINITE.get())
                 .add(GiniumBlocks.NIMBITE.get())
                 .add(GiniumBlocks.POLISHED_NIMBITE.get())
+                .add(GiniumBlocks.NIMBITE_BRICKS.get())
+                .add(GiniumBlocks.CHISELED_NIMBITE.get())
 
                 .add(GiniumBlocks.GINIUM_BLOCK.get())
                 .add(GiniumBlocks.GINIUM_ORE.get())

@@ -36,6 +36,12 @@ public class GiniumBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(GiniumBlocks.POLISHED_NIMBITE_WALL.get());
         dropSelf(GiniumBlocks.POLISHED_NIMBITE_BUTTON.get());
         dropSelf(GiniumBlocks.POLISHED_NIMBITE_PLATE.get());
+        dropSelf(GiniumBlocks.NIMBITE_BRICKS.get());
+        dropSelf(GiniumBlocks.NIMBITE_BRICKS_STAIRS.get());
+        add(GiniumBlocks.NIMBITE_BRICKS_SLAB.get(),
+                blocks -> createSlabItemTable(GiniumBlocks.NIMBITE_BRICKS_SLAB.get()));
+        dropSelf(GiniumBlocks.NIMBITE_BRICKS_WALL.get());
+        dropSelf(GiniumBlocks.CHISELED_NIMBITE.get());
 
         dropSelf(GiniumBlocks.GINIUM_BLOCK.get());
         dropSelf(GiniumBlocks.RAINBERG_BLOCK.get());
