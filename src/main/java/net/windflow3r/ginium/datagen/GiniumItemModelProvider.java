@@ -7,11 +7,14 @@ import net.minecraft.server.packs.PackType;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.armortrim.TrimMaterial;
 import net.minecraft.world.item.armortrim.TrimMaterials;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.windflow3r.ginium.Ginium;
+import net.windflow3r.ginium.block.GiniumBlocks;
 import net.windflow3r.ginium.item.GiniumItems;
 
 import java.util.LinkedHashMap;
@@ -55,6 +58,11 @@ public class GiniumItemModelProvider extends ItemModelProvider {
         basicItem(GiniumItems.RAW_RAINBERG.get());
         basicItem(GiniumItems.RAINBERG_INGOT.get());
         basicItem(GiniumItems.RAINBERG_NUGGET.get());
+        buttonItem(GiniumBlocks.POLISHED_NIMBITE_BUTTON, GiniumBlocks.POLISHED_NIMBITE);
+        wallItem(GiniumBlocks.POLISHED_NIMBITE_WALL, GiniumBlocks.POLISHED_NIMBITE);
+        stairsItem(GiniumBlocks.POLISHED_NIMBITE_STAIRS, GiniumBlocks.POLISHED_NIMBITE);
+        slabItem(GiniumBlocks.POLISHED_NIMBITE_SLAB, GiniumBlocks.POLISHED_NIMBITE);
+        pressurePlateItem(GiniumBlocks.POLISHED_NIMBITE_PLATE, GiniumBlocks.POLISHED_NIMBITE);
 
 
         basicItem(GiniumItems.GINITE_SCRAP.get());
@@ -153,6 +161,45 @@ public class GiniumItemModelProvider extends ItemModelProvider {
                                         "item/" + itemDeferredItem.getId().getPath()));
             });
         }
+    }
+
+    public void buttonItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/button_inventory"))
+                .texture("texture",  ResourceLocation.fromNamespaceAndPath(Ginium.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
+    }
+
+
+    public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
+                .texture("wall",  ResourceLocation.fromNamespaceAndPath(Ginium.MOD_ID,
+                        "block/" + baseBlock.getId().getPath()));
+    }
+
+    public void stairsItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/stairs"))
+                .texture("bottom", blockTexture(baseBlock))
+                .texture("top", blockTexture(baseBlock))
+                .texture("side", blockTexture(baseBlock));
+    }
+
+    public void slabItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/slab"))
+                .texture("bottom", blockTexture(baseBlock))
+                .texture("top", blockTexture(baseBlock))
+                .texture("side", blockTexture(baseBlock));
+    }
+
+    public void pressurePlateItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
+        this.withExistingParent(block.getId().getPath(), mcLoc("block/pressure_plate_up"))
+                .texture("texture", blockTexture(baseBlock));
+    }
+
+    private ResourceLocation blockTexture(DeferredBlock<Block> block) {
+        return ResourceLocation.fromNamespaceAndPath(
+                Ginium.MOD_ID,
+                "block/" + block.getId().getPath()
+        );
     }
 }
 

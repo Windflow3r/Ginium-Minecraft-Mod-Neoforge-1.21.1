@@ -3,8 +3,6 @@ package net.windflow3r.ginium.datagen;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.world.level.block.Block;
-import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.windflow3r.ginium.Ginium;
@@ -25,6 +23,8 @@ public class GiniumBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(GiniumBlocks.GINITE.get())
                 .add(GiniumBlocks.NIMBITE.get())
+                .add(GiniumBlocks.POLISHED_NIMBITE.get())
+
                 .add(GiniumBlocks.GINIUM_BLOCK.get())
                 .add(GiniumBlocks.GINIUM_ORE.get())
                 .add(GiniumBlocks.GINIUM_DEEPSLATE_ORE.get())
@@ -45,17 +45,20 @@ public class GiniumBlockTagProvider extends BlockTagsProvider {
 
         tag(ModTags.Blocks.NEEDS_GINIUM_TOOL)
                 .add(GiniumBlocks.NIMBITE.get())
+                .add(GiniumBlocks.POLISHED_NIMBITE.get())
                 .add(GiniumBlocks.RAINBERG_BLOCK.get())
                 .add(GiniumBlocks.RAINBERG_DEEPSLATE_ORE.get())
                 .addTag(BlockTags.NEEDS_IRON_TOOL);
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(GiniumBlocks.NIMBITE.get())
+                .add(GiniumBlocks.POLISHED_NIMBITE.get())
                 .add(GiniumBlocks.RAINBERG_BLOCK.get())
                 .add(GiniumBlocks.RAINBERG_DEEPSLATE_ORE.get());
 
         tag(ModTags.Blocks.NEEDS_IMBRIUM_TOOL)
                 .add(GiniumBlocks.NIMBITE.get())
+                .add(GiniumBlocks.POLISHED_NIMBITE.get())
                 .add(GiniumBlocks.RAINBERG_BLOCK.get())
                 .add(GiniumBlocks.RAINBERG_DEEPSLATE_ORE.get())
                 .add(GiniumBlocks.ROSITE_NETHER_ORE.get())
@@ -65,6 +68,7 @@ public class GiniumBlockTagProvider extends BlockTagsProvider {
 
         tag(ModTags.Blocks.NEEDS_SOFIUM_TOOL)
                 .add(GiniumBlocks.NIMBITE.get())
+                .add(GiniumBlocks.POLISHED_NIMBITE.get())
                 .add(GiniumBlocks.RAINBERG_BLOCK.get())
                 .add(GiniumBlocks.RAINBERG_DEEPSLATE_ORE.get())
                 .add(GiniumBlocks.ROSITE_NETHER_ORE.get())
@@ -87,6 +91,8 @@ public class GiniumBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_SOFIUM_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
                 .remove(ModTags.Blocks.NEEDS_SOFIUM_TOOL);
+
+        tag(BlockTags.WALLS).add(GiniumBlocks.POLISHED_NIMBITE_WALL.get());
 
     }
 }

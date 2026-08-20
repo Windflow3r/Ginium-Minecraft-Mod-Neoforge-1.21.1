@@ -53,6 +53,12 @@ public class GiniumCreativeModeTabs {
                         outout.accept(GiniumItems.RAINPOWDER);
                         outout.accept(GiniumItems.RAIN_APPLE);
                         outout.accept(GiniumBlocks.NIMBITE);
+                        outout.accept(GiniumBlocks.POLISHED_NIMBITE);
+                        outout.accept(GiniumBlocks.POLISHED_NIMBITE_STAIRS);
+                        outout.accept(GiniumBlocks.POLISHED_NIMBITE_SLAB);
+                        outout.accept(GiniumBlocks.POLISHED_NIMBITE_WALL);
+                        outout.accept(GiniumBlocks.POLISHED_NIMBITE_BUTTON);
+                        outout.accept(GiniumBlocks.POLISHED_NIMBITE_PLATE);
                         outout.accept(GiniumBlocks.RAINBERG_BLOCK);
 
                         //Imbrium

@@ -1,17 +1,13 @@
 package net.windflow3r.ginium.datagen;
 
-import net.minecraft.advancements.Criterion;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.ItemLike;
-import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.windflow3r.ginium.block.GiniumBlocks;
 import net.windflow3r.ginium.item.GiniumItems;
-import org.apache.commons.lang3.ObjectUtils;
 import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.world.item.crafting.Ingredient;
 
@@ -138,6 +134,13 @@ public class GiniumRecipeProvider extends RecipeProvider implements IConditionBu
 
         oreSmelting(recipeOutput, NYLIPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.NYLIPOWDER.get(), 1f, 500, "nylipowder");
         oreBlasting(recipeOutput, NYLIPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.NYLIPOWDER.get(), 1f, 300, "nylipowder");
+
+        stairBuilder(GiniumBlocks.POLISHED_NIMBITE_STAIRS, Ingredient.of(GiniumBlocks.POLISHED_NIMBITE)).group("polished_nimbite").unlockedBy("has_polished_nimbite", has(GiniumBlocks.POLISHED_NIMBITE)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.POLISHED_NIMBITE_SLAB.get(), GiniumBlocks.POLISHED_NIMBITE.get());
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.POLISHED_NIMBITE_WALL.get(), GiniumBlocks.POLISHED_NIMBITE.get());
+        buttonBuilder(GiniumBlocks.POLISHED_NIMBITE_BUTTON, Ingredient.of(GiniumBlocks.POLISHED_NIMBITE)).group("polished_nimbite").unlockedBy("has_polished_nimbite", has(GiniumBlocks.POLISHED_NIMBITE)).save(recipeOutput);
+        pressurePlate(recipeOutput, GiniumBlocks.POLISHED_NIMBITE_PLATE.get(), GiniumBlocks.POLISHED_NIMBITE.get());
+
 
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, GiniumItems.GINIUM_AXE.get())
                 .pattern("GG ")

@@ -4,8 +4,6 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlag;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
@@ -29,7 +27,15 @@ public class GiniumBlockLootTableProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         dropSelf(GiniumBlocks.GINITE.get());
+
         dropSelf(GiniumBlocks.NIMBITE.get());
+        dropSelf(GiniumBlocks.POLISHED_NIMBITE.get());
+        dropSelf(GiniumBlocks.POLISHED_NIMBITE_STAIRS.get());
+        add(GiniumBlocks.POLISHED_NIMBITE_SLAB.get(),
+                blocks -> createSlabItemTable(GiniumBlocks.POLISHED_NIMBITE_SLAB.get()));
+        dropSelf(GiniumBlocks.POLISHED_NIMBITE_WALL.get());
+        dropSelf(GiniumBlocks.POLISHED_NIMBITE_BUTTON.get());
+        dropSelf(GiniumBlocks.POLISHED_NIMBITE_PLATE.get());
 
         dropSelf(GiniumBlocks.GINIUM_BLOCK.get());
         dropSelf(GiniumBlocks.RAINBERG_BLOCK.get());

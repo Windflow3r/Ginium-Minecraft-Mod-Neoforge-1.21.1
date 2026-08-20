@@ -3,10 +3,9 @@ package net.windflow3r.ginium.block;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -44,11 +43,47 @@ public class GiniumBlocks {
                             .sound(SoundType.DEEPSLATE)
             ));
 
+    //N
     public static final DeferredBlock<Block> NIMBITE = registerBlock("nimbite",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(3f).requiresCorrectToolForDrops()
                     .sound(SoundType.AMETHYST)
             ));
+
+    public static final DeferredBlock<Block> POLISHED_NIMBITE = registerBlock("polished_nimbite",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<StairBlock> POLISHED_NIMBITE_STAIRS = registerBlock("polished_nimbite_stairs",
+            () -> new StairBlock(GiniumBlocks.POLISHED_NIMBITE.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<SlabBlock> POLISHED_NIMBITE_SLAB = registerBlock("polished_nimbite_slab",
+            () -> new SlabBlock(
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<PressurePlateBlock> POLISHED_NIMBITE_PLATE = registerBlock("polished_nimbite_plate",
+            () -> new PressurePlateBlock(BlockSetType.GOLD,
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<ButtonBlock> POLISHED_NIMBITE_BUTTON = registerBlock("polished_nimbite_button",
+            () -> new ButtonBlock(BlockSetType.GOLD, 20, BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().noCollission()
+                    .sound(SoundType.AMETHYST)
+            ));
+
+    public static final DeferredBlock<WallBlock> POLISHED_NIMBITE_WALL = registerBlock("polished_nimbite_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.AMETHYST)
+            ));
+
+
 
     public static final DeferredBlock<Block> RAINBERG_BLOCK = registerBlock("rainberg_block",
             () -> new Block(BlockBehaviour.Properties.of()
