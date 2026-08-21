@@ -82,6 +82,18 @@
   "block.windflowersginium.imbrium_block": "インブリウムブロック",
 
   "block.windflowersginium.nimbite": "ニムバツ",
+  "block.windflowersginium.polished_nimbite": "磨かれたニムバツ",
+  "block.windflowersginium.polished_nimbite_stairs": "磨かれたニムバツの階段",
+  "block.windflowersginium.polished_nimbite_slab": "磨かれたニムバツのハーフブロック",
+  "block.windflowersginium.polished_nimbite_wall": "磨かれたニムバツの塀",
+  "block.windflowersginium.polished_nimbite_button": "磨かれたニムバツのボタン",
+  "block.windflowersginium.polished_nimbite_plate": "磨かれたニムバツの感圧板",
+  "block.windflowersginium.nimbite_bricks": "ニムバツレンガ",
+  "block.windflowersginium.nimbite_bricks_stairs": "ニムバツレンガの階段",
+  "block.windflowersginium.nimbite_bricks_slab": "ニムバツレンガのハーフブロック",
+  "block.windflowersginium.nimbite_bricks_wall": "ニムバツレンガの塀",
+  "block.windflowersginium.chiseled_nimbite": "模様入りのニムバツ",
+  
   "block.windflowersginium.rainberg_block": "ラインバルグブロック",
   "block.windflowersginium.rainberg_deepslate_ore": "深層岩ラインバルグ鉱石",
 
