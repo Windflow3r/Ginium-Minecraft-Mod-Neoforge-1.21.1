@@ -72,6 +72,18 @@
   "block.windflowersginium.imbrium_block": "Bloque de Imbrium",
 
   "block.windflowersginium.nimbite": "Nimbite",
+  "block.windflowersginium.polished_nimbite": "Nimbite pulida",
+  "block.windflowersginium.polished_nimbite_stairs": "Escaleras de nimbite pulida",
+  "block.windflowersginium.polished_nimbite_slab": "Losa de nimbite pulida",
+  "block.windflowersginium.polished_nimbite_wall": "Muro de nimbite pulida",
+  "block.windflowersginium.polished_nimbite_button": "Botón de nimbite pulida",
+  "block.windflowersginium.polished_nimbite_plate": "Placa de presión de nimbite pulida",
+  "block.windflowersginium.nimbite_bricks": "Ladrillos de nimbite",
+  "block.windflowersginium.nimbite_bricks_stairs": "Escaleras de lardrillos de nimbite",
+  "block.windflowersginium.nimbite_bricks_slab": "Losa de lardrillos de nimbite",
+  "block.windflowersginium.nimbite_bricks_wall": "Muro de lardrillos de nimbite",
+  "block.windflowersginium.chiseled_nimbite": "Nimbite cincelada",
+  
   "block.windflowersginium.rainberg_block": "Bloque de Rainberg",
   "block.windflowersginium.rainberg_deepslate_ore": "Mena de Rainberg de pizarra profunda",
 
