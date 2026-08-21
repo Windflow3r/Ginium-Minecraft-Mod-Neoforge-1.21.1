@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "windflowersginium:block/polished_nimbite_slab"
+    },
+    "type=double": {
+      "model": "windflowersginium:block/polished_nimbite"
+    },
+    "type=top": {
+      "model": "windflowersginium:block/polished_nimbite_slab_top"
+    }
+  }
+}

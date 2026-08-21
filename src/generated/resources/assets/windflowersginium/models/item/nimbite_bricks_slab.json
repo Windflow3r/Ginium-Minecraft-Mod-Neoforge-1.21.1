@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "windflowersginium:block/nimbite_bricks",
+    "side": "windflowersginium:block/nimbite_bricks",
+    "top": "windflowersginium:block/nimbite_bricks"
+  }
+}

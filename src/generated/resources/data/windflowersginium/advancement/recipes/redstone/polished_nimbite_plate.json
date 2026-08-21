@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_polished_nimbite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "windflowersginium:polished_nimbite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "windflowersginium:polished_nimbite_plate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_polished_nimbite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "windflowersginium:polished_nimbite_plate"
+    ]
+  }
+}

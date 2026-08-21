@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nimbite_bricks",
+  "key": {
+    "#": {
+      "item": "windflowersginium:nimbite_bricks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "windflowersginium:nimbite_bricks_stairs"
+  }
+}

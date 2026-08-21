@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "polished_nimbite",
+  "ingredients": [
+    {
+      "item": "windflowersginium:polished_nimbite"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:polished_nimbite_button"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "polished_nimbite",
+  "key": {
+    "#": {
+      "item": "windflowersginium:polished_nimbite"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "windflowersginium:polished_nimbite_stairs"
+  }
+}
