@@ -72,6 +72,18 @@
   "block.windflowersginium.imbrium_block": "Bloc d'Imbrium",
 
   "block.windflowersginium.nimbite": "Nimbite",
+  "block.windflowersginium.polished_nimbite": "Nimbite polie",
+  "block.windflowersginium.polished_nimbite_stairs": "Escalier en nimbite polie",
+  "block.windflowersginium.polished_nimbite_slab": "Dalle de nimbite polie",
+  "block.windflowersginium.polished_nimbite_wall": "Muret de nimbite polie",
+  "block.windflowersginium.polished_nimbite_button": "Bouton en nimbite polie",
+  "block.windflowersginium.polished_nimbite_plate": "Plaque de pression en nimbite polie",
+  "block.windflowersginium.nimbite_bricks": "Nimbite taillée",
+  "block.windflowersginium.nimbite_bricks_stairs": "Escalier en nimbite taillée",
+  "block.windflowersginium.nimbite_bricks_slab": "Dalle de nimbite taillée",
+  "block.windflowersginium.nimbite_bricks_wall": "Muret de nimbite taillée",
+  "block.windflowersginium.chiseled_nimbite": "Nimbite sculptée",
+  
   "block.windflowersginium.rainberg_block": "Bloc de Rainberg",
   "block.windflowersginium.rainberg_deepslate_ore": "Minerai de Rainberg des abîmes",
 
