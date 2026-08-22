@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "windflowersginium:nimbite"
+  },
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:chiseled_nimbite"
+  }
+}

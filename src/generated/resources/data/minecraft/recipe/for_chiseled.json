@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "N": {
+      "item": "windflowersginium:polished_nimbite_slab"
+    }
+  },
+  "pattern": [
+    " N ",
+    " N ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:chiseled_nimbite"
+  }
+}

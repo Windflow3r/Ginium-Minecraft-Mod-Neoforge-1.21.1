@@ -70,6 +70,7 @@ public class GiniumCreativeModeTabs {
                         outout.accept(GiniumItems.IMBRIUM_UPGRADE_ARROW);
                         outout.accept(GiniumItems.IMBRIUM_UPGRADE_SMITHING_TEMPLATE);
                         outout.accept(GiniumItems.IMBRIUM_INGOT);
+                        outout.accept(GiniumBlocks.IMBRIUM_BLOCK);
 
                         outout.accept(GiniumItems.IMBRIUM_AXE);
                         outout.accept(GiniumItems.IMBRIUM_HOE);

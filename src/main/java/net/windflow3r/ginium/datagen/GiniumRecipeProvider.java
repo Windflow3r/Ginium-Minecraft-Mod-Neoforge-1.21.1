@@ -10,6 +10,8 @@ import net.windflow3r.ginium.block.GiniumBlocks;
 import net.windflow3r.ginium.item.GiniumItems;
 import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.data.recipes.SingleItemRecipeBuilder;
+import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -321,6 +323,29 @@ public class GiniumRecipeProvider extends RecipeProvider implements IConditionBu
                 .define('A', Items.APPLE)
                 .unlockedBy("has_rose_apple", has(GiniumItems.ROSE_APPLE)).save(recipeOutput);
 
+        // NIMBITE BLOCKS
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.POLISHED_NIMBITE.get())
+                .pattern("NN ")
+                .pattern("NN ")
+                .pattern("   ")
+                .define('N', GiniumBlocks.NIMBITE.get())
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.NIMBITE_BRICKS.get())
+                .pattern("NN ")
+                .pattern("NN ")
+                .pattern("   ")
+                .define('N', GiniumBlocks.POLISHED_NIMBITE.get())
+                .unlockedBy("has_polished_nimbite", has(GiniumBlocks.POLISHED_NIMBITE)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.CHISELED_NIMBITE.get())
+                .pattern(" N ")
+                .pattern(" N ")
+                .pattern("   ")
+                .define('N', GiniumBlocks.POLISHED_NIMBITE_SLAB.get())
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE)).save(recipeOutput, "for_chiseled");
+
 
 
 
@@ -497,6 +522,84 @@ public class GiniumRecipeProvider extends RecipeProvider implements IConditionBu
                         GiniumItems.SOFIUM_BOOTS.get()
                 ).unlocks("has_sofium_ingot", has(GiniumItems.SOFIUM_INGOT.get()))
                 .save(recipeOutput, "sofium_boots_smithing");
+
+        // =========================================================
+        // NIMBITE STONECUTTER RECIPES
+        // =========================================================
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.POLISHED_NIMBITE.get()
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "polished_nimbite_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.POLISHED_NIMBITE_STAIRS.get()
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "polished_nimbite_stairs_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.POLISHED_NIMBITE_SLAB.get(),
+                        2
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "polished_nimbite_slab_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.POLISHED_NIMBITE_WALL.get()
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "polished_nimbite_wall_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.NIMBITE_BRICKS.get()
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "nimbite_bricks_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.NIMBITE_BRICKS_STAIRS.get()
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "nimbite_bricks_stairs_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.NIMBITE_BRICKS_SLAB.get(),
+                        2
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "nimbite_bricks_slab_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.NIMBITE_BRICKS_WALL.get()
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "nimbite_bricks_wall_from_nimbite_stonecutting");
+
+        SingleItemRecipeBuilder.stonecutting(
+                        Ingredient.of(GiniumBlocks.NIMBITE.get()),
+                        RecipeCategory.BUILDING_BLOCKS,
+                        GiniumBlocks.CHISELED_NIMBITE.get()
+                )
+                .unlockedBy("has_nimbite", has(GiniumBlocks.NIMBITE.get()))
+                .save(recipeOutput, "chiseled_nimbite_from_nimbite_stonecutting");
 
 
     }

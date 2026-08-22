@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_nimbite": {
+      "conditions": {
+        "items": [
+          {
+            "items": "windflowersginium:nimbite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:nimbite_bricks_slab_from_nimbite_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_nimbite"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:nimbite_bricks_slab_from_nimbite_stonecutting"
+    ]
+  }
+}
