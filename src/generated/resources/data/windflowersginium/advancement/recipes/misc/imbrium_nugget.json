@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_nimbite_scrap": {
+    "has_imbrium_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "windflowersginium:nimbite_scrap"
+            "items": "windflowersginium:imbrium_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:rainpowder_from_blasting_nimbite_scrap"
+        "recipe": "windflowersginium:imbrium_nugget"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_nimbite_scrap"
+      "has_imbrium_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:rainpowder_from_blasting_nimbite_scrap"
+      "windflowersginium:imbrium_nugget"
     ]
   }
 }

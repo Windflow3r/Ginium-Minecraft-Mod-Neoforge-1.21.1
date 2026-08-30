@@ -11,7 +11,6 @@ import net.windflow3r.ginium.item.GiniumItems;
 import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.data.recipes.SingleItemRecipeBuilder;
-import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -96,6 +95,45 @@ public class GiniumRecipeProvider extends RecipeProvider implements IConditionBu
                 .define('R', GiniumItems.SOFIUM_INGOT.get())
                 .unlockedBy("has_sofium_ingot", has(GiniumItems.SOFIUM_INGOT)).save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, GiniumItems.IMBRIUM_NUGGET.get(), 9)
+                .requires(GiniumItems.IMBRIUM_INGOT)
+                .unlockedBy("has_imbrium_ingot", has(GiniumItems.IMBRIUM_INGOT)).save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GiniumItems.IMBRIUM_INGOT.get())
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .define('R', GiniumItems.IMBRIUM_NUGGET.get())
+                .unlockedBy("has_imbrium_ingot", has(GiniumItems.IMBRIUM_NUGGET))
+                .save(recipeOutput, "imbrium_ingot_from_nuggets");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GiniumItems.IMBRIUM_COG.get())
+                .pattern(" R ")
+                .pattern("RIR")
+                .pattern(" R ")
+                .define('R', GiniumItems.IMBRIUM_NUGGET.get())
+                .define('I', GiniumItems.IMBRIUM_INGOT.get())
+                .unlockedBy("has_imbrium_ingot", has(GiniumItems.IMBRIUM_INGOT)).save(recipeOutput, "for_cog");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GiniumItems.IMBRIUM_GEARBOX.get())
+                .pattern("RB")
+                .define('R', GiniumItems.IMBRIUM_COG.get())
+                .define('B', GiniumBlocks.IMBRIUM_BLOCK.get())
+                .unlockedBy("has_imbrium_ingot", has(GiniumItems.IMBRIUM_INGOT)).save(recipeOutput, "for_gearbox");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GiniumBlocks.POWDERIZER.get())
+                .pattern("INI")
+                .pattern("CMC")
+                .pattern("IGI")
+                .define('C', GiniumItems.IMBRIUM_COG.get())
+                .define('M', GiniumItems.IMBRIUM_GEARBOX.get())
+                .define('I', GiniumItems.GINIUM_INGOT.get())
+                .define('N', GiniumBlocks.NIMBITE.get())
+                .define('G', GiniumBlocks.GINITE.get())
+                .unlockedBy("has_imbrium_ingot", has(GiniumItems.IMBRIUM_INGOT)).save(recipeOutput, "for_powderizer");
+
+
+
 
         //Smelting
         List<ItemLike> GINIUM_INGOT_SMELTABLES = List.of(GiniumItems.RAW_GINIUM, GiniumBlocks.GINIUM_ORE, GiniumBlocks.GINIUM_DEEPSLATE_ORE);
@@ -104,10 +142,7 @@ public class GiniumRecipeProvider extends RecipeProvider implements IConditionBu
         List<ItemLike> NYLITE_SHARD_SMELTABLES = List.of(GiniumBlocks.NYLITE_END_ORE);
         List<ItemLike> GINITE_SMELTABLES = List.of(GiniumBlocks.GINITE);
         List<ItemLike> NIMBITE_SMELTABLES = List.of(GiniumBlocks.NIMBITE);
-        List<ItemLike> GINPOWDER_SMELTABLES = List.of(GiniumItems.GINITE_SCRAP);
-        List<ItemLike> RAINPOWDER_SMELTABLES = List.of(GiniumItems.NIMBITE_SCRAP);
-        List<ItemLike> ROSPOWDER_SMELTABLES = List.of(GiniumItems.ROSITE_SHARD);
-        List<ItemLike> NYLIPOWDER_SMELTABLES = List.of(GiniumItems.NYLITE_SHARD);
+
 
 
         oreSmelting(recipeOutput, GINIUM_INGOT_SMELTABLES, RecipeCategory.MISC, GiniumItems.GINIUM_INGOT.get(), 0.35f, 200, "ginium_ingot");
@@ -124,18 +159,6 @@ public class GiniumRecipeProvider extends RecipeProvider implements IConditionBu
         oreBlasting(recipeOutput, GINITE_SMELTABLES, RecipeCategory.MISC, GiniumItems.GINITE_SCRAP.get(), 0.75f, 150, "ginite_scrap");
         oreSmelting(recipeOutput, NIMBITE_SMELTABLES, RecipeCategory.MISC, GiniumItems.NIMBITE_SCRAP.get(), 0.75f, 250, "nimbite_scrap");
         oreBlasting(recipeOutput, NIMBITE_SMELTABLES, RecipeCategory.MISC, GiniumItems.NIMBITE_SCRAP.get(), 0.75f, 150, "nimbite_scrap");
-
-        oreSmelting(recipeOutput, GINPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.GINPOWDER.get(), 1f, 250, "ginpowder");
-        oreBlasting(recipeOutput, GINPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.GINPOWDER.get(), 1f, 150, "ginpowder");
-
-        oreSmelting(recipeOutput, RAINPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.RAINPOWDER.get(), 1f, 250, "rainpowder");
-        oreBlasting(recipeOutput, RAINPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.RAINPOWDER.get(), 1f, 150, "rainpowder");
-
-        oreSmelting(recipeOutput, ROSPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.ROSPOWDER.get(), 1f, 500, "rospowder");
-        oreBlasting(recipeOutput, ROSPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.ROSPOWDER.get(), 1f, 300, "rospowder");
-
-        oreSmelting(recipeOutput, NYLIPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.NYLIPOWDER.get(), 1f, 500, "nylipowder");
-        oreBlasting(recipeOutput, NYLIPOWDER_SMELTABLES, RecipeCategory.MISC, GiniumItems.NYLIPOWDER.get(), 1f, 300, "nylipowder");
 
         stairBuilder(GiniumBlocks.POLISHED_NIMBITE_STAIRS, Ingredient.of(GiniumBlocks.POLISHED_NIMBITE)).group("polished_nimbite").unlockedBy("has_polished_nimbite", has(GiniumBlocks.POLISHED_NIMBITE)).save(recipeOutput);
         slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, GiniumBlocks.POLISHED_NIMBITE_SLAB.get(), GiniumBlocks.POLISHED_NIMBITE.get());

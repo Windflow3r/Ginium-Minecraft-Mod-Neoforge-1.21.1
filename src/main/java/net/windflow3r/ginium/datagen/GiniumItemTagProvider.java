@@ -47,6 +47,9 @@ public class GiniumItemTagProvider extends ItemTagsProvider {
                 .add(GiniumItems.IMBRIUM_UPGRADE_SMITHING_TEMPLATE.get())
 
                 .add(GiniumItems.IMBRIUM_INGOT.get())
+                .add(GiniumItems.IMBRIUM_NUGGET.get())
+                .add(GiniumItems.IMBRIUM_COG.get())
+                .add(GiniumItems.IMBRIUM_GEARBOX.get())
 
                 .add(GiniumItems.IMBRIUM_AXE.get())
                 .add(GiniumItems.IMBRIUM_SHOVEL.get())
@@ -79,23 +82,28 @@ public class GiniumItemTagProvider extends ItemTagsProvider {
 
         tag(ItemTags.AXES)
                 .add(GiniumItems.GINIUM_AXE.get())
-                .add(GiniumItems.IMBRIUM_AXE.get());
+                .add(GiniumItems.IMBRIUM_AXE.get())
+                .add(GiniumItems.SOFIUM_AXE.get());
 
         tag(ItemTags.HOES)
                 .add(GiniumItems.GINIUM_HOE.get())
-                .add(GiniumItems.IMBRIUM_HOE.get());
+                .add(GiniumItems.IMBRIUM_HOE.get())
+                .add(GiniumItems.SOFIUM_HOE.get());
 
         tag(ItemTags.PICKAXES)
                 .add(GiniumItems.GINIUM_PICKAXE.get())
-                .add(GiniumItems.IMBRIUM_PICKAXE.get());
+                .add(GiniumItems.IMBRIUM_PICKAXE.get())
+                .add(GiniumItems.SOFIUM_PICKAXE.get());
 
         tag(ItemTags.SHOVELS)
                 .add(GiniumItems.GINIUM_SHOVEL.get())
-                .add(GiniumItems.IMBRIUM_SHOVEL.get());
+                .add(GiniumItems.IMBRIUM_SHOVEL.get())
+                .add(GiniumItems.SOFIUM_SHOVEL.get());
 
         tag(ItemTags.SWORDS)
                 .add(GiniumItems.GINIUM_SWORD.get())
-                .add(GiniumItems.IMBRIUM_SWORD.get());
+                .add(GiniumItems.IMBRIUM_SWORD.get())
+                .add(GiniumItems.SOFIUM_SWORD.get());
 
         this.tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(GiniumItems.GINIUM_HELMET.get())

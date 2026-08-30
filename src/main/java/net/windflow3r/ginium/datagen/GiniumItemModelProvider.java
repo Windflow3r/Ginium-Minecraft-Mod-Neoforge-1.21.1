@@ -76,6 +76,9 @@ public class GiniumItemModelProvider extends ItemModelProvider {
         basicItem(GiniumItems.IMBRIUM_UPGRADE_ARROW.get());
 
         basicItem(GiniumItems.IMBRIUM_INGOT.get());
+        basicItem(GiniumItems.IMBRIUM_NUGGET.get());
+        basicItem(GiniumItems.IMBRIUM_COG.get());
+        basicItem(GiniumItems.IMBRIUM_GEARBOX.get());
 
         handheldItem(GiniumItems.IMBRIUM_AXE.get());
         handheldItem(GiniumItems.IMBRIUM_HOE.get());

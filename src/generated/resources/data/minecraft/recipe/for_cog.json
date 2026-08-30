@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "windflowersginium:imbrium_ingot"
+    },
+    "R": {
+      "item": "windflowersginium:imbrium_nugget"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:imbrium_cog"
+  }
+}

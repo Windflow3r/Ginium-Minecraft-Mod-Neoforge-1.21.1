@@ -10,6 +10,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.windflow3r.ginium.Ginium;
+import net.windflow3r.ginium.block.custom.PowderizerBlock;
 import net.windflow3r.ginium.item.GiniumItems;
 
 import java.util.function.Supplier;
@@ -125,6 +126,10 @@ public class GiniumBlocks {
                             .strength(3f).requiresCorrectToolForDrops()
                             .sound(SoundType.DEEPSLATE)
             ));
+
+    public static final DeferredBlock<Block> POWDERIZER = registerBlock("powderizer",
+            () -> new PowderizerBlock(BlockBehaviour.Properties.of()));
+
 
     public static final DeferredBlock<Block> IMBRIUM_BLOCK = registerBlock("imbrium_block",
             () -> new Block(BlockBehaviour.Properties.of()

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "windflowersginium:imbrium_block"
+    },
+    "R": {
+      "item": "windflowersginium:imbrium_cog"
+    }
+  },
+  "pattern": [
+    "RB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:imbrium_gearbox"
+  }
+}

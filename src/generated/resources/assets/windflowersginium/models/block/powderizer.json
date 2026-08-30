@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "windflowersginium:block/powderizer_top",
+    "east": "windflowersginium:block/powderizer_side",
+    "north": "windflowersginium:block/powderizer_side",
+    "particle": "windflowersginium:block/powderizer_side",
+    "south": "windflowersginium:block/powderizer_front",
+    "up": "windflowersginium:block/powderizer_top",
+    "west": "windflowersginium:block/powderizer_side"
+  }
+}

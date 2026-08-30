@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ginite_scrap": {
+    "has_imbrium_ingot": {
       "conditions": {
         "items": [
           {
-            "items": "windflowersginium:ginite_scrap"
+            "items": "windflowersginium:imbrium_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:ginpowder_from_blasting_ginite_scrap"
+        "recipe": "minecraft:for_powderizer"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ginite_scrap"
+      "has_imbrium_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:ginpowder_from_blasting_ginite_scrap"
+      "minecraft:for_powderizer"
     ]
   }
 }

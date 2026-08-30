@@ -88,6 +88,15 @@ public class GiniumItems {
     public static final DeferredItem<Item> IMBRIUM_INGOT = ITEMS.register("imbrium_ingot",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> IMBRIUM_NUGGET = ITEMS.register("imbrium_nugget",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> IMBRIUM_COG = ITEMS.register("imbrium_cog",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> IMBRIUM_GEARBOX = ITEMS.register("imbrium_gearbox",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<AxeItem> IMBRIUM_AXE = ITEMS.register("imbrium_axe",
             () -> new AxeItem(GiniumToolTiers.IMBRIUM, new Item.Properties()
                     .attributes(AxeItem.createAttributes(GiniumToolTiers.IMBRIUM, 6.0f, -3.0f))));

@@ -48,6 +48,8 @@ public class GiniumBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(GiniumBlocks.SOFIUM_BLOCK.get());
         dropSelf(GiniumBlocks.IMBRIUM_BLOCK.get());
 
+
+
         add(GiniumBlocks.GINIUM_ORE.get(),
                 block ->createMultipleOreDrops(GiniumBlocks.GINIUM_ORE.get(), GiniumItems.RAW_GINIUM.get(), 1, 2));
 
@@ -62,6 +64,8 @@ public class GiniumBlockLootTableProvider extends BlockLootSubProvider {
 
         add(GiniumBlocks.NYLITE_END_ORE.get(),
                 block -> createMultipleOreDrops(GiniumBlocks.NYLITE_END_ORE.get(), GiniumItems.NYLITE_SHARD.get(), 1, 2));
+
+        this.dropSelf(GiniumBlocks.POWDERIZER.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

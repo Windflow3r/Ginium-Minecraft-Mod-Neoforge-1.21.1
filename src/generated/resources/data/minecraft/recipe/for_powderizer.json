@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "windflowersginium:imbrium_cog"
+    },
+    "G": {
+      "item": "windflowersginium:ginite"
+    },
+    "I": {
+      "item": "windflowersginium:ginium_ingot"
+    },
+    "M": {
+      "item": "windflowersginium:imbrium_gearbox"
+    },
+    "N": {
+      "item": "windflowersginium:nimbite"
+    }
+  },
+  "pattern": [
+    "INI",
+    "CMC",
+    "IGI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "windflowersginium:powderizer"
+  }
+}
