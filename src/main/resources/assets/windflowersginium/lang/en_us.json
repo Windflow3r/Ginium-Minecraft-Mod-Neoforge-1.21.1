@@ -100,5 +100,7 @@
   "block.windflowersginium.rosite_nether_ore": "Nether Rosite Ore",
   "block.windflowersginium.nylite_end_ore": "End Nylite Ore",
 
-  "block.windflowersginium.sofium_block": "Block of Sofium"
+  "block.windflowersginium.sofium_block": "Block of Sofium",
+
+  "block.windflowersginium.powderizer": "Powderizer"
 }

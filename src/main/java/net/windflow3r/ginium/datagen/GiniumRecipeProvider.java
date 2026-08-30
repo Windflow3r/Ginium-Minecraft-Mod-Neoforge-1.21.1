@@ -11,7 +11,6 @@ import net.windflow3r.ginium.item.GiniumItems;
 import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.data.recipes.SingleItemRecipeBuilder;
-import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
