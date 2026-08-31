@@ -57,9 +57,6 @@ public class GiniumCreativeModeTabs {
                         outout.accept(GiniumItems.IMBRIUM_COG);
                         outout.accept(GiniumItems.IMBRIUM_GEARBOX);
 
-
-
-
                         outout.accept(GiniumItems.IMBRIUM_AXE);
                         outout.accept(GiniumItems.IMBRIUM_HOE);
                         outout.accept(GiniumItems.IMBRIUM_PICKAXE);
@@ -119,7 +116,6 @@ public class GiniumCreativeModeTabs {
 
                         //Rainberg
                         outout.accept(GiniumBlocks.RAINBERG_DEEPSLATE_ORE);
-                        outout.accept(GiniumBlocks.NIMBITE);
                         outout.accept(GiniumBlocks.POLISHED_NIMBITE);
                         outout.accept(GiniumBlocks.POLISHED_NIMBITE_STAIRS);
                         outout.accept(GiniumBlocks.POLISHED_NIMBITE_SLAB);
