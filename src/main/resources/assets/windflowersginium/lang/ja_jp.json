@@ -102,5 +102,8 @@
 
   "block.windflowersginium.sofium_block": "ソビウムブロック",
 
-  "block.windflowersginium.powderizer": "パウタライザ"
+  "block.windflowersginium.powderizer": "パウタライザ",
+  "item.windflowersginium.imbrium_nugget": "インブリウム塊",
+  "item.windflowersginium.imbrium_cog": "インブリウムの歯車",
+  "item.windflowersginium.imbrium_gearbox": "インブリウムのギアボックス"
 }
